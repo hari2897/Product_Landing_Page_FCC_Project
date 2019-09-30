@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#header{
+    background-color: burlywood;
+
+}
+
+#heading{
+    position:relative;
+    font-size:24px;
+    text-align-last: center;
+    padding :24px 0 24px;
+}
+
