@@ -4,15 +4,165 @@
     box-sizing: border-box;
   }
 
+  #page{
+      position:relative;
+      background-color: black;
+      height:auto;
+  }
+
+
 #header{
-    background-color: burlywood;
+    position:fixed;
+    display:flex;
+    background-color:black;
+    align-items:center; 
+    width:100%;
+    margin:auto;
+        }
+@media (max-width: 600px) {
+    header{
+        flex-wrap: wrap;
+        }
+    }
+
+#logo{
+    flex:1;
+    /* background-color:blue; */
+    height:100px;    
+    }
+
+
+#header-img{
+    
+width:100px;        
+height:100px;
+margin-left:25%;
+    }
+
+
+#Heading{
+    color:goldenrod;
+    flex:1;
+    /* background-color:white; */
+    text-align: center;
+    }
+
+nav{
+    flex:1;
+    /* background-color:gray; */
+    }
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+
+    }
+
+
+li{
+   display:inline;
+    color:gold;
+   
+
+}
+a{
+    text-decoration: none;
+    color:gold;
 
 }
 
-#heading{
+.container{
     position:relative;
-    font-size:24px;
-    text-align-last: center;
-    padding :24px 0 24px;
+    background-color:goldenrod ;
+    text-align:center;
+    color:#2055da;
+    
+    line-height: 2rem;
+    padding-top:20px;
+    padding-bottom:20px;
+    
 }
+#email{
+    color:goldenrod;
+    font-weight:500;
+    background-color: black;
+
+}
+
+#submit{
+    background-color: goldenrod;
+    color:#001c64;
+    border-radius:3px;
+    font-weight: bold;
+    border-color:black;
+}
+
+.banners-1,.banners-2{
+    display:flex;
+    margin: auto;
+    
+}
+
+.toLovePic,.PureText{
+    display:flex;
+    flex-flow: column;
+    background-color:black;
+    color:goldenrod;
+    flex:1;
+    align-items:center;
+    justify-content: center;
+    line-height: 1.618rem;
+
+    
+    
+    
+}
+
+#krishnaFlute,#peacock{
+    width:100%;
+    height:650px;
+}
+
+.toLove,.Pure{
+    display:flex;
+    flex-flow: column;
+    background-color:black;
+    color:goldenrod;
+    flex:1;
+    align-items:center;
+    justify-content: center;
+    line-height: 1.618rem;
+    
+}
+
+#para{
+    display:flex;
+    margin-top:20px;
+    align-items: center;
+    justify-items: center;
+    width:70%;
+   
+}
+
+#youtube{
+    display:flex;
+    justify-content: center;
+    color:goldenrod;
+}
+#youtube-video{
+    display:flex;
+    flex:1;
+}
+#video{
+    width:70%;
+    margin:auto;
+}
+#youtube-text{
+    display:flex;
+    flex:1;
+    align-items: center;
+}
+
 
